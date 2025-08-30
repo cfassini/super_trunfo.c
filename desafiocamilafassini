@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main (){
+
+    char estado1, estado2;
+    char codigo1, codigo2;
+    char cidade1, cidade2;
+    int populacao1, populacao2;
+    float area1, area2;
+    float pib1, pib2;
+    int pontos1, pontos2;
+
+
+    printf("Olá, preciso coletar dados demográficos de alguns estados e conto com a sua ajuda!\n");
+    printf("Me ajude com as informações da carta de número 1\n");
+    printf("Carta 1\n");
+
+    //Carta1 - coleta de dados
+    printf("Qual o Estado? Digite uma letra de A a H para representar o Estado:\n");
+    scanf("%s", &estado1);
+    printf("Qual o código do estado? Digite um número de 01 a 04\n");
+    scanf("%s", &codigo1);
+    printf("Qual o nome da cidade?\n");
+    scanf("%s", &cidade1);
+    printf("Qual a população da cidade?\n");
+    scanf("%f", &populacao1);
+    printf("Qual a área da cidade?\n");
+    scanf("%f", &area1);
+    printf("Qual o PIB da cidade?\n");
+    scanf("%f", &pib1);
+    printf("Quantos pontos turísticos essa cidade possui?\n");
+    scanf("%d", &pontos1);
+
+//Entrega de dados coletados
+    printf("De acordo com as informações que nos passou, temos então:\n");
+    printf("Carta1:\n");
+    printf("Estado: %s\n", estado1);
+    printf("Código: %s%s\n", estado1, codigo1);
+    printf("Nome da cidade: %s\n", cidade1);
+    printf("População: %d\n", cidade1);
+    printf("Área: %f\n", area1);
+    printf("PIB: %f\n", pib1);
+    printf("Número de Pntos Turísticos: %f\n", pontos1);
+    
+}
